@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080", // Adjust if your server runs on a different port or path
+            "webRoot": "${workspaceFolder}", // This should be the folder where index.html is located
+            "file": "${workspaceFolder}/index.html" // This line ensures that index.html is loaded directly if no server
+        }
+    ]
+}

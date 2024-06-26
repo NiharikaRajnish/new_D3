@@ -1,0 +1,7 @@
+type,id,name
+node,1,Alice
+node,2,Bob
+node,3,Charlie
+link,1,2
+link,2,3
+link,3,1

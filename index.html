@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Network Graph with D3.js</title>
+    <style>
+                .link {
+            stroke: #df0d0d;
+            stroke-opacity: 0.6;
+        }
+        text {
+            font: 10px sans-serif;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <input type="file" id="file-input" accept=".csv">
+    <button id="add-node">Add Node</button>
+    <button id="remove-node">Remove Node</button>
+    <button id="add-link">Add Link</button>
+    <button id="remove-link">Remove Link</button>
+    <button id="download-csv">Download CSV</button>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="network_graph.js"></script>
+
+</body>
+</html>
